@@ -4,15 +4,15 @@ import br.com.cod3r.chain.process.service.ProcessContext;
 
 public class GetUserToken extends ProcessStep {
 
-	public GetUserToken(Object... args) {
-		super(args);
-	}
+    public GetUserToken(Object... args) {
+        super(args);
+    }
 
-	@Override
-	public ProcessContext execute(ProcessContext context) throws Exception {
-		String emailDb = (String) context.get("user.email");
-		context.put("token", emailDb.toUpperCase());
-		return next(context, emailDb.toUpperCase());
-	}
+    @Override
+    public ProcessContext execute(ProcessContext context) throws Exception {
+        String emailDb = (String) context.get("user.email");
+        context.put("token", emailDb.toUpperCase());
+        return next(context, emailDb.toUpperCase());
+    }
 
 }
