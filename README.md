@@ -36,3 +36,20 @@ Solução definida:
 1. Definir uma estrutura de memento onde cada estado poderá ser salvo e restaurado quando necessário.
 
 ---
+
+## Command (Just do it!)
+
+Encapsular uma requisição como um objeto, permitindo que clientes parametrizem diferentes requisições, filas ou
+requisições de log, e suportar operações reversíveis.
+
+Problemas abordados:
+
+1. Como posso representar uma requisição dentro de um objeto?
+2. Preciso fazer uma requisição mas não sei como ela será resolvida ou até mesmo quem irá respondê-la?
+
+Soluções definidas:
+
+1. Encapsular a requisição em um objeto command separado
+2. O comando não tem os detalhes de quem e como será resolvido
+
+---
