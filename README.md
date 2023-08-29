@@ -11,7 +11,7 @@ requisição. Compõe os objetos em cascata e passa a requisição pela corrente
 
 Problemas abordados:
 
-1. Como posso evitar o acoplamento entre o remetente de uma solicitação e seu receptor?
+1. Como posso evitar o acoplamento entre o remetente de uma solicitação e o seu receptor?
 2. Como permitir que mais que um objeto possa atender alguma requisição?
 
 Soluções definidas:
@@ -29,7 +29,7 @@ estado restaurado posteriormente.
 
 Problema abordado:
 
-1. Como um objeto pode capturar seu estado interno para poder ser restaurado posteriormente?
+1. Como um objeto pode capturar o seu estado interno para poder ser restaurado posteriormente?
 
 Solução definida:
 
@@ -45,7 +45,7 @@ requisições de log, e suportar operações reversíveis.
 Problemas abordados:
 
 1. Como posso representar uma requisição dentro de um objeto?
-2. Preciso fazer uma requisição mas não sei como ela será resolvida ou até mesmo quem irá respondê-la?
+2. Preciso fazer uma requisição, mas não sei como ela será resolvida ou até mesmo quem irá respondê-la?
 
 Soluções definidas:
 
@@ -53,3 +53,15 @@ Soluções definidas:
 2. O comando não tem os detalhes de quem e como será resolvido
 
 ---
+
+## Iterator (Primeiro ele, depois ele alí e depois aquele lá...)
+
+Prover uma maneira de acessar os elementos de um objeto agregado sequencialmente sem expor uma representação interna.
+
+Problema abordado:
+
+1. Como posso navegar através de uma coleção de objetos sem a necessidade de conhecer os detalhes desta estrutura?
+
+Solução definida:
+
+1. Encapsular a lógica de navegação entre os elementos desta coleção em uma estrutura de iterator
