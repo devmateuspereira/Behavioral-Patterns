@@ -65,3 +65,20 @@ Problema abordado:
 Solução definida:
 
 1. Encapsular a lógica de navegação entre os elementos desta coleção em uma estrutura de iterator
+
+---
+
+## Mediator (Apenas um garoto de recados)
+
+Definir um objeto que encapsula como um conjunto de objetos interagem. Meditor promove acoplamento fraco ao manter
+objetos que não se referem um ao outro explicitamente, permitindo variar a sua interação independentemente.
+
+Problemas abordados:
+
+1. Como posso reduzir o acoplamento entre objetos que precisam se comunicar?
+2. Como posso deixar a interação entre objetos mais dinâmica?
+
+Soluções definidas:
+
+1. Utilizar uma estrutura de mediator para encapsular a forma em que os objetos se comunicarão
+2. Os objetos não precisam se conhecer, pois, toda a interação será realizada através do mediator
