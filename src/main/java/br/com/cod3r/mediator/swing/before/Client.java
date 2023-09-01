@@ -1,9 +1,9 @@
-package br.com.cod3r.mediator.before;
+package br.com.cod3r.mediator.swing.before;
 
-import br.com.cod3r.mediator.before.components.AddButton;
-import br.com.cod3r.mediator.before.components.Label;
-import br.com.cod3r.mediator.before.components.ResetButton;
-import br.com.cod3r.mediator.before.components.State;
+import br.com.cod3r.mediator.swing.before.components.AddButton;
+import br.com.cod3r.mediator.swing.before.components.Label;
+import br.com.cod3r.mediator.swing.before.components.ResetButton;
+import br.com.cod3r.mediator.swing.before.components.State;
 
 import javax.swing.*;
 import java.awt.*;

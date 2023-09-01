@@ -1,4 +1,4 @@
-package br.com.cod3r.mediator.after;
+package br.com.cod3r.mediator.swing.after;
 
 public class Client {
 

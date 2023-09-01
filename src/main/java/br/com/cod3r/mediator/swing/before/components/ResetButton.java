@@ -1,4 +1,4 @@
-package br.com.cod3r.mediator.before.components;
+package br.com.cod3r.mediator.swing.before.components;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

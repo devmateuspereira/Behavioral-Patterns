@@ -1,8 +1,8 @@
-package br.com.cod3r.mediator.after.mediator;
+package br.com.cod3r.mediator.swing.after.mediator;
 
-import br.com.cod3r.mediator.after.components.AddButton;
-import br.com.cod3r.mediator.after.components.Label;
-import br.com.cod3r.mediator.after.components.State;
+import br.com.cod3r.mediator.swing.after.components.AddButton;
+import br.com.cod3r.mediator.swing.after.components.Label;
+import br.com.cod3r.mediator.swing.after.components.State;
 
 public class Mediator {
 

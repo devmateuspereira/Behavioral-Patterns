@@ -1,6 +1,4 @@
-package br.com.cod3r.mediator.after.components;
-
-import br.com.cod3r.mediator.after.mediator.Mediator;
+package br.com.cod3r.mediator.swing.before.components;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -8,12 +6,16 @@ import java.awt.event.ActionListener;
 
 public class AddButton extends JButton {
 
-    public AddButton(Mediator mediator) {
+    public AddButton(State state, Label label) {
         super("Click me!");
         this.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                mediator.buttonClicked();
+                state.addCount();
+                label.refresh();
+                if (state.getCounter() == 10) {
+                    setEnabled(false);
+                }
             }
         });
     }

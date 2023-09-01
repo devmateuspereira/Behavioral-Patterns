@@ -1,4 +1,4 @@
-package br.com.cod3r.mediator.before.components;
+package br.com.cod3r.mediator.swing.before.components;
 
 public class State {
 

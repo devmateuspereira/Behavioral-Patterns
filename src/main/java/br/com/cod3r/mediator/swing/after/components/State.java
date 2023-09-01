@@ -1,6 +1,6 @@
-package br.com.cod3r.mediator.after.components;
+package br.com.cod3r.mediator.swing.after.components;
 
-import br.com.cod3r.mediator.after.mediator.Mediator;
+import br.com.cod3r.mediator.swing.after.mediator.Mediator;
 
 public class State {
 
