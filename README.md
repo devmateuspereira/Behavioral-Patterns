@@ -82,3 +82,20 @@ Soluções definidas:
 
 1. Utilizar uma estrutura de mediator para encapsular a forma em que os objetos se comunicarão
 2. Os objetos não precisam se conhecer, pois, toda a interação será realizada através do mediator
+
+---
+
+## Observer (Don't call me, I'll call you!)
+
+Definir uma dependência um-para-muitos entre objetos para que quando um objeto mudar de estado, todos os seus
+dependentes sejam notificados e atualizados automaticamente.
+
+Problemas abordados:
+
+1. Como posso modelar um relacionamento 1-N sem deixar todos eles acoplados?
+2. Como um objeto pode notificar outros objetos quando necessário?
+
+Solução definida:
+
+1. Criar uma estrutura de observer para ele poder notificar todos os objetos que solicitaram ser avisados quando um
+   determinado evento ocorra
