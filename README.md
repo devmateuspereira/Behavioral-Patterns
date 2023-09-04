@@ -122,8 +122,8 @@ Soluções definidas:
 
 ## Strategy (Do grego Strategy)
 
-Definir uma família de algoritmos, encapsulas cada um, e fazê-los intercambiáveis. Strategy permite que algoritmos
-mudem independentemente entre clientes que os utilizam.
+Definir uma família de algoritmos, encapsulas cada um, e fazê-los intercambiáveis. Strategy permite que algoritmos mudem
+independentemente entre clientes que os utilizam.
 
 Problemas abordados:
 
@@ -134,3 +134,20 @@ Soluções definidas:
 
 1. Encapsular os algoritmos possíveis para o mesmo problema em uma estrutura de strategy
 2. O cliente irá delegar a execução para estas estratégias ao invés de possuir toda a lógica internamente
+
+---
+
+## Template Method (Não sei se percebeu, mas isso aqui é um template...)
+
+Definir o esqueleto de um algoritmo dentro de uma operação, deixando alguns passos a serem preenchidos pelas subclasses.
+Template Method permite que as suas subclasses redefinam certos passos de um algoritmo sem mudar a sua estrutura.
+
+Problemas abordados:
+
+1. Como posso unir partes de um código que não variam com partes variáveis?
+2. Como posso alterar certos pontos do código mantendo uma estrutura?
+
+Soluções definidas:
+
+1. Definir uma abstração com todos os pontos que podem ser variados
+2. Criar um template que contenha as partes fixas e possua pontos de chamadas para as partes variáveis
