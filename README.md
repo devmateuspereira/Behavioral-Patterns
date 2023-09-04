@@ -117,3 +117,20 @@ Soluções definidas:
 1. Modelas os comportamentos através de states
 2. Definir como serão realizadas as mudanças de estados
 3. Cada state irá tomar controle da execução conforme o estado interno do objeto
+
+---
+
+## Strategy (Do grego Strategy)
+
+Definir uma família de algoritmos, encapsulas cada um, e fazê-los intercambiáveis. Strategy permite que algoritmos
+mudem independentemente entre clientes que os utilizam.
+
+Problemas abordados:
+
+1. Como uma classe pode utilizar um algoritmo definido dinamicamente?
+2. Como posso selecionar e trocar uma lógica em tempo de execução?
+
+Soluções definidas:
+
+1. Encapsular os algoritmos possíveis para o mesmo problema em uma estrutura de strategy
+2. O cliente irá delegar a execução para estas estratégias ao invés de possuir toda a lógica internamente
