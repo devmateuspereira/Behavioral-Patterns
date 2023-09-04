@@ -99,3 +99,21 @@ Solução definida:
 
 1. Criar uma estrutura de observer para ele poder notificar todos os objetos que solicitaram ser avisados quando um
    determinado evento ocorra
+
+---
+
+## State (A Máquina de Turing)
+
+Permitir a um objeto alterar o seu comportamento quanto o seu estado interno mudar. O objeto irá aparentar mudar de
+classe.
+
+Problemas abordados:
+
+1. Como posso alterar o comportamento de um objeto quando o seu estado interno muda?
+2. Como permitir que novos comportamentos sejam adicionados e integrados com os demais?
+
+Soluções definidas:
+
+1. Modelas os comportamentos através de states
+2. Definir como serão realizadas as mudanças de estados
+3. Cada state irá tomar controle da execução conforme o estado interno do objeto
